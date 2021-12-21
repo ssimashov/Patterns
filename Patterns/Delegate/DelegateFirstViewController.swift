@@ -15,10 +15,6 @@ class DelegateFirstViewController: UIViewController {
         super.viewDidLoad()
     }
     
-//    func fruitDidSelect(_ fruit: String) {
-//            labelView.text = fruit
-//        }
-    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
             if segue.identifier == "toFruit" {
                 let ctrl = segue.destination as! AppleViewController
