@@ -21,6 +21,10 @@
 		F6FEC9B927724558006189C6 /* Observer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6FEC9B827724558006189C6 /* Observer.storyboard */; };
 		F6FEC9BB277246D1006189C6 /* ObserverFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FEC9BA277246D1006189C6 /* ObserverFirstViewController.swift */; };
 		F6FEC9BD277246E8006189C6 /* ObserverSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FEC9BC277246E8006189C6 /* ObserverSecondViewController.swift */; };
+		F6FEC9C027724BC8006189C6 /* Delegate.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6FEC9BF27724BC8006189C6 /* Delegate.storyboard */; };
+		F6FEC9C227724C83006189C6 /* DelegateFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FEC9C127724C83006189C6 /* DelegateFirstViewController.swift */; };
+		F6FEC9C427724C95006189C6 /* DelegateSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FEC9C327724C95006189C6 /* DelegateSecondViewController.swift */; };
+		F6FEC9C627724CC9006189C6 /* AppleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FEC9C527724CC9006189C6 /* AppleViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +44,10 @@
 		F6FEC9B827724558006189C6 /* Observer.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Observer.storyboard; sourceTree = "<group>"; };
 		F6FEC9BA277246D1006189C6 /* ObserverFirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObserverFirstViewController.swift; sourceTree = "<group>"; };
 		F6FEC9BC277246E8006189C6 /* ObserverSecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObserverSecondViewController.swift; sourceTree = "<group>"; };
+		F6FEC9BF27724BC8006189C6 /* Delegate.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Delegate.storyboard; sourceTree = "<group>"; };
+		F6FEC9C127724C83006189C6 /* DelegateFirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegateFirstViewController.swift; sourceTree = "<group>"; };
+		F6FEC9C327724C95006189C6 /* DelegateSecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegateSecondViewController.swift; sourceTree = "<group>"; };
+		F6FEC9C527724CC9006189C6 /* AppleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +80,7 @@
 		F6FEC9972772393E006189C6 /* Patterns */ = {
 			isa = PBXGroup;
 			children = (
+				F6FEC9BE27724B8A006189C6 /* Delegate */,
 				F6FEC9B727724534006189C6 /* Observer */,
 				F6FEC9AE27723C2D006189C6 /* Singleton */,
 				F6FEC9982772393E006189C6 /* AppDelegate.swift */,
@@ -105,6 +114,17 @@
 				F6FEC9BC277246E8006189C6 /* ObserverSecondViewController.swift */,
 			);
 			path = Observer;
+			sourceTree = "<group>";
+		};
+		F6FEC9BE27724B8A006189C6 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				F6FEC9BF27724BC8006189C6 /* Delegate.storyboard */,
+				F6FEC9C127724C83006189C6 /* DelegateFirstViewController.swift */,
+				F6FEC9C327724C95006189C6 /* DelegateSecondViewController.swift */,
+				F6FEC9C527724CC9006189C6 /* AppleViewController.swift */,
+			);
+			path = Delegate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +188,7 @@
 				F6FEC9A52772393F006189C6 /* LaunchScreen.storyboard in Resources */,
 				F6FEC9A22772393F006189C6 /* Assets.xcassets in Resources */,
 				F6FEC9AD277239D8006189C6 /* Singleton.storyboard in Resources */,
+				F6FEC9C027724BC8006189C6 /* Delegate.storyboard in Resources */,
 				F6FEC9B927724558006189C6 /* Observer.storyboard in Resources */,
 				F6FEC9A02772393E006189C6 /* Main.storyboard in Resources */,
 			);
@@ -182,8 +203,11 @@
 			files = (
 				F6FEC9B627723DD5006189C6 /* Session.swift in Sources */,
 				F6FEC9BB277246D1006189C6 /* ObserverFirstViewController.swift in Sources */,
+				F6FEC9C627724CC9006189C6 /* AppleViewController.swift in Sources */,
 				F6FEC99D2772393E006189C6 /* ViewController.swift in Sources */,
 				F6FEC9BD277246E8006189C6 /* ObserverSecondViewController.swift in Sources */,
+				F6FEC9C227724C83006189C6 /* DelegateFirstViewController.swift in Sources */,
+				F6FEC9C427724C95006189C6 /* DelegateSecondViewController.swift in Sources */,
 				F6FEC9992772393E006189C6 /* AppDelegate.swift in Sources */,
 				F6FEC99B2772393E006189C6 /* SceneDelegate.swift in Sources */,
 				F6FEC9B227723C85006189C6 /* SecondViewController.swift in Sources */,

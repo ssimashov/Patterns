@@ -21,18 +21,26 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="Singleton"/>
                                 <connections>
-                                    <segue destination="das-85-35p" kind="show" id="TG0-nC-gLz"/>
+                                    <segue destination="das-85-35p" kind="show" identifier="moveToSingleton" id="TG0-nC-gLz"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dDk-c9-WAj">
-                                <rect key="frame" x="165" y="348" width="84" height="34"/>
+                                <rect key="frame" x="165" y="254" width="84" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="34" id="7f7-Pf-8JI"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="Observer"/>
                                 <connections>
-                                    <segue destination="hqX-XX-0VE" kind="show" id="HOb-LM-UTx"/>
+                                    <segue destination="hqX-XX-0VE" kind="show" identifier="moveToObserver" id="HOb-LM-UTx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zsj-KN-g5X">
+                                <rect key="frame" x="164" y="319" width="85" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Delegate"/>
+                                <connections>
+                                    <segue destination="fNu-Mo-U5I" kind="show" identifier="moveToDelegate" id="Mxx-pO-yeV"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -41,8 +49,11 @@
                         <constraints>
                             <constraint firstItem="nce-Ll-VKA" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="145" id="8CS-yh-rGB"/>
                             <constraint firstItem="dDk-c9-WAj" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Jp0-e3-y0a"/>
+                            <constraint firstItem="dDk-c9-WAj" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="210" id="PDP-Up-7Xj"/>
                             <constraint firstItem="nce-Ll-VKA" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="TYc-eK-0Og"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="dDk-c9-WAj" secondAttribute="bottom" constant="480" id="fvS-vb-Eel"/>
+                            <constraint firstItem="zsj-KN-g5X" firstAttribute="trailing" secondItem="nce-Ll-VKA" secondAttribute="trailing" id="q1r-NJ-hze"/>
+                            <constraint firstItem="zsj-KN-g5X" firstAttribute="top" secondItem="dDk-c9-WAj" secondAttribute="bottom" constant="31" id="sT7-52-3Yh"/>
+                            <constraint firstItem="zsj-KN-g5X" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="vOc-V8-kcq"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -69,6 +80,16 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xh7-h9-Jm9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="683" y="6"/>
+        </scene>
+        <!--Delegate-->
+        <scene sceneID="eYi-KN-Vjd">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Delegate" id="fNu-Mo-U5I" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="ZB4-UR-KKy"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bXA-zb-pRv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="601" y="168"/>
         </scene>
     </scenes>
     <resources>
