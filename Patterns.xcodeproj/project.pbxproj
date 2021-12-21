@@ -18,6 +18,9 @@
 		F6FEC9B227723C85006189C6 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FEC9B127723C85006189C6 /* SecondViewController.swift */; };
 		F6FEC9B427723C9A006189C6 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FEC9B327723C9A006189C6 /* ThirdViewController.swift */; };
 		F6FEC9B627723DD5006189C6 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FEC9B527723DD5006189C6 /* Session.swift */; };
+		F6FEC9B927724558006189C6 /* Observer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6FEC9B827724558006189C6 /* Observer.storyboard */; };
+		F6FEC9BB277246D1006189C6 /* ObserverFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FEC9BA277246D1006189C6 /* ObserverFirstViewController.swift */; };
+		F6FEC9BD277246E8006189C6 /* ObserverSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FEC9BC277246E8006189C6 /* ObserverSecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +37,9 @@
 		F6FEC9B127723C85006189C6 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		F6FEC9B327723C9A006189C6 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		F6FEC9B527723DD5006189C6 /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		F6FEC9B827724558006189C6 /* Observer.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Observer.storyboard; sourceTree = "<group>"; };
+		F6FEC9BA277246D1006189C6 /* ObserverFirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObserverFirstViewController.swift; sourceTree = "<group>"; };
+		F6FEC9BC277246E8006189C6 /* ObserverSecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObserverSecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +72,7 @@
 		F6FEC9972772393E006189C6 /* Patterns */ = {
 			isa = PBXGroup;
 			children = (
+				F6FEC9B727724534006189C6 /* Observer */,
 				F6FEC9AE27723C2D006189C6 /* Singleton */,
 				F6FEC9982772393E006189C6 /* AppDelegate.swift */,
 				F6FEC99A2772393E006189C6 /* SceneDelegate.swift */,
@@ -88,6 +95,16 @@
 				F6FEC9B527723DD5006189C6 /* Session.swift */,
 			);
 			path = Singleton;
+			sourceTree = "<group>";
+		};
+		F6FEC9B727724534006189C6 /* Observer */ = {
+			isa = PBXGroup;
+			children = (
+				F6FEC9B827724558006189C6 /* Observer.storyboard */,
+				F6FEC9BA277246D1006189C6 /* ObserverFirstViewController.swift */,
+				F6FEC9BC277246E8006189C6 /* ObserverSecondViewController.swift */,
+			);
+			path = Observer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +168,7 @@
 				F6FEC9A52772393F006189C6 /* LaunchScreen.storyboard in Resources */,
 				F6FEC9A22772393F006189C6 /* Assets.xcassets in Resources */,
 				F6FEC9AD277239D8006189C6 /* Singleton.storyboard in Resources */,
+				F6FEC9B927724558006189C6 /* Observer.storyboard in Resources */,
 				F6FEC9A02772393E006189C6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -163,7 +181,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6FEC9B627723DD5006189C6 /* Session.swift in Sources */,
+				F6FEC9BB277246D1006189C6 /* ObserverFirstViewController.swift in Sources */,
 				F6FEC99D2772393E006189C6 /* ViewController.swift in Sources */,
+				F6FEC9BD277246E8006189C6 /* ObserverSecondViewController.swift in Sources */,
 				F6FEC9992772393E006189C6 /* AppDelegate.swift in Sources */,
 				F6FEC99B2772393E006189C6 /* SceneDelegate.swift in Sources */,
 				F6FEC9B227723C85006189C6 /* SecondViewController.swift in Sources */,

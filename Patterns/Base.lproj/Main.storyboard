@@ -16,18 +16,34 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nce-Ll-VKA">
-                                <rect key="frame" x="151" y="189" width="167" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nce-Ll-VKA">
+                                <rect key="frame" x="164.5" y="189" width="85" height="31"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="Singleton"/>
                                 <connections>
                                     <segue destination="das-85-35p" kind="show" id="TG0-nC-gLz"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dDk-c9-WAj">
+                                <rect key="frame" x="165" y="348" width="84" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="7f7-Pf-8JI"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Observer"/>
+                                <connections>
+                                    <segue destination="hqX-XX-0VE" kind="show" id="HOb-LM-UTx"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="nce-Ll-VKA" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="145" id="8CS-yh-rGB"/>
+                            <constraint firstItem="dDk-c9-WAj" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Jp0-e3-y0a"/>
+                            <constraint firstItem="nce-Ll-VKA" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="TYc-eK-0Og"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="dDk-c9-WAj" secondAttribute="bottom" constant="480" id="fvS-vb-Eel"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -43,6 +59,16 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="I80-sR-qKE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="553" y="-205"/>
+        </scene>
+        <!--Observer-->
+        <scene sceneID="dSE-mn-N59">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Observer" id="hqX-XX-0VE" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="YZg-qH-8Yo"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xh7-h9-Jm9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="683" y="6"/>
         </scene>
     </scenes>
     <resources>
