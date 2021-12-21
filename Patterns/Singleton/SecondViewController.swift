@@ -1,0 +1,16 @@
+//
+//  SecondViewController.swift
+//  Patterns
+//
+//  Created by Sergey Simashov on 21.12.2021.
+//
+
+import UIKit
+
+class SecondViewController: UIViewController {
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+    
+}
